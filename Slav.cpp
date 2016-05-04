@@ -1,5 +1,6 @@
 #include "Slav.h"
 #include <fstream>
+#include <iterator>
 
 using namespace std;
 
@@ -18,6 +19,8 @@ void Slav::init()
 
 Slav::Slav()
 {
+/* Ten fragment kodu to tzw. leniwa inicjalizacja.
+Jest to proces opóźniający wykonanie danego fragmentu kodu */	
 	static int amountOfNames = (init(), names.size());
 	_name = names[rand() % amountOfNames];
 	_id = _counter++;
