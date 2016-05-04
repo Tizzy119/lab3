@@ -17,8 +17,8 @@
 
 #include "Slav.h"
 
-#define REPORT_ADAPTERS showMeAdapterSizes(queueOfSlavs,stackOfSlavs);
-#define REPORT_CONTAINERS showMeContainerSizes(vectorOfSlavs,setOfSlavs,mapOfSlavs);
+#define REPORT_ADAPTERS showMeAdapterSizes(queueOfSlavs,stackOfSlavs)
+#define REPORT_CONTAINERS showMeContainerSizes(vectorOfSlavs,setOfSlavs,mapOfSlavs)
 
 using namespace std;
 
